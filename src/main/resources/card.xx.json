@@ -1,0 +1,48 @@
+{
+  "title" : "Někdo tě nakopl do zadku",
+  "text" : "Někdo tě nakopl do zadele. Docela se do toho opřel, celkem to zabolelo. Co s tím uděláš?",
+  "imageUrl" : "nic.png",
+  "conditions" : [ {
+    "stat" : "sila",
+    "operator" : "lowerThan",
+    "falseThreshold" : 5,
+    "trueThreshold" : 3
+  } ],
+  "actions" : [ {
+    "type" : "beznadejna",
+    "text" : "Rozpláču se",
+    "conditions" : [ ],
+    "effectDescription" : "",
+    "effects" : [ {
+      "stat" : null,
+      "effectMode" : null,
+      "value" : null
+    } ]
+  }, {
+    "type" : "pozitivni",
+    "text" : "Odpustím mu",
+    "conditions" : [ {
+      "stat" : "filosofie",
+      "operator" : "greaterThan",
+      "falseThreshold" : 2,
+      "trueThreshold" : 6
+    } ],
+    "effectDescription" : "Nic se nestalo.",
+    "effects" : [ ]
+  }, {
+    "type" : "konfliktni",
+    "text" : "Začnu posilovat a nakopu ho",
+    "conditions" : [ {
+      "stat" : "sila",
+      "operator" : "greaterThan",
+      "falseThreshold" : 2,
+      "trueThreshold" : 4
+    } ],
+    "effectDescription" : "Těžko říct",
+    "effects" : [ {
+      "stat" : null,
+      "effectMode" : null,
+      "value" : null
+    } ]
+  } ]
+}

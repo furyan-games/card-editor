@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="org.jboss.weld.se:weld-se-shaded:3.0.3.Final" type="repository">
+    <properties maven-id="org.jboss.weld.se:weld-se-shaded:3.0.3.Final" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/weld/se/weld-se-shaded/3.0.3.Final/weld-se-shaded-3.0.3.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ideaLibSources/weld-se-shaded-3.0.3.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

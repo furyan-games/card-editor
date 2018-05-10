@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox spacing="2">
+    <ChoiceBox id="stat" />
+    <ChoiceBox id="operator" />
+    <TextField id="falseThreshold" prefWidth="40" />
+    <Label text=" - " alignment="CENTER_RIGHT"/>
+    <TextField id="trueThreshold" prefWidth="40" />
+    <Button id="remove" text="x" />
+</HBox>
+

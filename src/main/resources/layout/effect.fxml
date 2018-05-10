@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox spacing="2">
+    <ChoiceBox id="stat" />
+    <ChoiceBox id="mode" />
+    <TextField id="value" prefWidth="90" />
+    <Button id="remove" text="x" />
+</HBox>

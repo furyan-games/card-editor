@@ -1,0 +1,57 @@
+{
+  "title" : "",
+  "text" : "",
+  "imageUrl" : "",
+  "conditions" : [ {
+    "stat" : null,
+    "operator" : null,
+    "falseThreshold" : null,
+    "trueThreshold" : null
+  } ],
+  "actions" : [ {
+    "type" : null,
+    "text" : "",
+    "conditions" : [ {
+      "stat" : null,
+      "operator" : null,
+      "falseThreshold" : null,
+      "trueThreshold" : null
+    } ],
+    "effectDescription" : "",
+    "effects" : [ {
+      "stat" : null,
+      "effectMode" : null,
+      "value" : null
+    } ]
+  }, {
+    "type" : null,
+    "text" : "",
+    "conditions" : [ {
+      "stat" : null,
+      "operator" : null,
+      "falseThreshold" : null,
+      "trueThreshold" : null
+    } ],
+    "effectDescription" : "",
+    "effects" : [ {
+      "stat" : null,
+      "effectMode" : null,
+      "value" : null
+    } ]
+  }, {
+    "type" : null,
+    "text" : "",
+    "conditions" : [ {
+      "stat" : null,
+      "operator" : null,
+      "falseThreshold" : null,
+      "trueThreshold" : null
+    } ],
+    "effectDescription" : "",
+    "effects" : [ {
+      "stat" : null,
+      "effectMode" : null,
+      "value" : null
+    } ]
+  } ]
+}

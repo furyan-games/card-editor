@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10">
+    <HBox spacing="10">
+        <Label text="Typ:" minWidth="70" alignment="CENTER_RIGHT"/>
+        <ChoiceBox id="type" />
+        <Button id="remove" text="x" />
+    </HBox>
+    <HBox spacing="10">
+        <Label text="Text:" minWidth="70" alignment="CENTER_RIGHT"/>
+        <TextField id="text" prefWidth="250" />
+    </HBox>
+    <HBox spacing="10">
+        <VBox>
+            <Label text="Efekt:" minWidth="70" alignment="CENTER_RIGHT"/>
+            <HBox>
+                <Label minWidth="35" alignment="CENTER_RIGHT" maxHeight="10" />
+                <Button text="+" id="addEffect" minWidth="35" maxHeight="10" style="-fx-font-size: 10px;" />
+            </HBox>
+        </VBox>
+        <VBox id="effects" spacing="5">
+        </VBox>
+    </HBox>
+    <HBox spacing="10">
+        <Label text="Popis ef.:" minWidth="70" alignment="CENTER_RIGHT"/>
+        <TextField id="effectDesc" prefWidth="250" />
+    </HBox>
+    <HBox spacing="10">
+        <VBox>
+            <Label text="Podmínky:" minWidth="70" alignment="CENTER_RIGHT"/>
+            <HBox>
+                <Label minWidth="35" alignment="CENTER_RIGHT" maxHeight="10" />
+                <Button text="+" id="addCondition" minWidth="35" maxHeight="10" style="-fx-font-size: 10px;" />
+            </HBox>
+        </VBox>
+        <VBox id="conditions" spacing="5"/>
+    </HBox>
+
+</VBox>
